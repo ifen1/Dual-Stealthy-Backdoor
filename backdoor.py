@@ -56,9 +56,9 @@ def setwaterMark(Img):
     e = pywt.wavedec2(mask2, 'db2', level=2)
     [cb1, (chb1, cvb1, cdb1),(chb2, cvb2, cdb2)] = e
     a1 = 0
-    a2 = 0.8
-    a3 = 0.8
-    a4 = 0.8
+    a2 = 0.6
+    a3 = 0.6
+    a4 = 0.6
     cl = cl + ca1 * a1
     cH3 = cH3 + ch1 * a2
     cV3 =  cv1 * a3
@@ -77,9 +77,9 @@ def setwaterMark2(Img):
     e = pywt.wavedec2(mask2, 'db2', level=2)
     [cb1, (chb1, cvb1, cdb1),(chb2, cvb2, cdb2)] = e
     a1 = 0
-    a2 = 1
-    a3 = 1
-    a4 = 1
+    a2 = 0.8
+    a3 = 0.8
+    a4 = 0.8
 
     cl = cl + ca1 * a1
     cH3 = cH3 + ch1 * a2
