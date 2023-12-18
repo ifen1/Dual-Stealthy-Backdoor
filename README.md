@@ -3,4 +3,4 @@ The dataset is 200 classes of ImageNet.
 It will be continuously updated.
 The ImageNet link: https://aistudio.baidu.com/aistudio/datasetdetail/184197
 
-Thanks to other defense codes proposed in the literature, already cited in our forthcoming paper.
+Thanks to the defense codes proposed in other literature, already cited in our forthcoming paper.
